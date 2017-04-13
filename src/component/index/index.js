@@ -1,8 +1,8 @@
 
-import './index.css'
-import '../../styles/b.css';
+import '../../styles/base.css'
 import '../../utils/main.js';
-import $ from 'jquery'
+var $ = window.jQuery = require("jquery")  
+require("bootstrap")
 
 //为了以后拓展将方法都抽离出来了，应变准备
 
