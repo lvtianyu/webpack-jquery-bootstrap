@@ -1,5 +1,5 @@
 {
-  "name": "liver-cloud.com",
+  "name": "webpack-jquery-bootstrap",
   "version": "1.0.0",
   "description": "public",
   "main": "httpServer.js",
@@ -11,7 +11,7 @@
     "start": "node bin/server",
     "compiler": "node bin/compile"
   },
-  "author": "",
+  "author": "sky_rainbow",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.17.0",
@@ -44,5 +44,18 @@
     "nodemon": "^1.11.0",
     "webpack-dev-middleware": "^1.10.0",
     "webpack-hot-middleware": "^2.17.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvtianyu/webpack-jquery-bootstrap.git"
+  },
+  "keywords": [
+    "webpack",
+    "jquery",
+    "bootstrap"
+  ],
+  "bugs": {
+    "url": "https://github.com/lvtianyu/webpack-jquery-bootstrap/issues"
+  },
+  "homepage": "https://github.com/lvtianyu/webpack-jquery-bootstrap#readme"
 }
