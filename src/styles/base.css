@@ -1,0 +1,19 @@
+/*
+基本变亮，基本设置
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #545454;
+}
+
+body a{
+    text-decoration: none;
+}
