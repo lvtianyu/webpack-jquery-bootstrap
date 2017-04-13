@@ -1,8 +1,8 @@
 ## 用webpack实现多页面开发打包
 
-很多人多很迷惑怎么用webpack实现多页面打包，尤其是使用jquery框架的你，这个框架可以给你一个更完整的配置；其中配置的细节和容易出错的地方已经有中文注释；首先声明用webpack最好是用单页面，如果你的兼容要求高（<＝IE8 ）更好的选择还是grunt｜gulp；
+很多人都很迷惑怎么用webpack实现多页面打包，尤其是配合使用jquery，这个框架可以给你一个更完整的配置；其中配置的细节和容易出错的地方已经有中文注释；首先声明用webpack最好是用单页面项目，如果你的兼容要求高（<＝IE8 ）更好的选择还是grunt｜gulp；
 
-本框架在打包完成后在IE8浏览器上报错，原因是IE8不支持jquery插件中的define( "jquery", [], function () { return jQuery; } );部分则是在jquery最后一行抛出的；这就话是为了支持amd；
+本框架在打包完成后在IE8浏览器上报错，原因是IE8不支持jquery插件中的define( "jquery", [], function () { return jQuery; } );部分则是在jquery最后一行抛出的；这是为了支持amd；
 
 在此我的部分配置引用了React Starter Kit脚手架；这个脚手架非常稳定，是react开发中比较好的脚手架；建议喜欢react的人可以去看看：https://github.com/bodyno/react-starter-kit.git
 
